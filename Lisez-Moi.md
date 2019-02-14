@@ -1,6 +1,6 @@
 # curaprofiles_de200
 Profils pour cura 3.6 pour la de200 créés à partir de CurabyDagoma ! Ces fichiers sont partagés pour être testés et sont à vos propres risques ! N'hésitez pas à me faire des retours sur le club dagoma par message privé : https://clubdagoma.popsell.com 
-Veuillez avoir préalablement téléchargé Cura 3.6 !
+Veuillez avoir préalablement téléchargé Cura 3.6 à cette adresse : https://ultimaker.com/en/products/ultimaker-cura-software !
 
 /!\ Certains fichiers sont à copier dans le dossier d'installation de cura (C:\Program Files\Ultimaker Cura 3.6) et d'autres devront être importés depuis l'interface de cura :
   
