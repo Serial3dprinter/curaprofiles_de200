@@ -1,0 +1,74 @@
+{
+    "name": "Dagoma DiscoEasy200",
+    "version": 2,
+    "inherits": "fdmprinter",
+    "metadata": {
+        "visible": true,
+        "author": "Serial3dprinter",
+        "manufacturer": "Dagoma",
+        "file_formats": "text/x-gcode",
+        "platform": "discoeasy200.stl",
+        "platform_offset": [ 105, -59, 280],
+        "has_machine_quality": true,
+        "has_materials": true,
+        "machine_extruder_trains":
+        {
+            "0": "dagoma_discoeasy200_extruder_0"
+        }
+    },
+    "overrides": {
+        "machine_width": {
+            "default_value": 205
+        },
+        "machine_height": {
+            "default_value": 205
+        },
+        "machine_depth": {
+            "default_value": 205
+        },
+        "machine_center_is_zero": {
+            "default_value": false
+        },
+        "machine_head_with_fans_polygon": {
+            "default_value": [
+                [-17, 70],
+                [-17, -40],
+                [17, -40],
+                [17, 70]
+            ]
+        },
+        "gantry_height": {
+            "value": "10"
+        },
+        "machine_start_gcode": {
+            "default_value": ";Gcode inspire de Cura by Dagoma pour DE200 et DU / nD131 E1 ;Disable filrunout 2, just in case the user has a bicolor printer\nG90 ;absolute positioning\nM106 S255 ;fan on for the sensor\nG28 X Y\nG1 X50\nM109 R90 ;wait for cool down\nG28 ;Sensor activation\nG29\nM104 S{material_print_temperature_layer_0}\nM107 ;start with the fan off\nG1 X100 Y20 Z0.5 F3000\nM109 S{material_print_temperature_layer_0}\nM82 ;set extruder to absolute mode\nG92 E0 ;zero the extruded length\nG1 F200 E10 ;extrude 10mm of feed stock\nG92 E0 ;zero the extruded length again\nG1 E-{retraction_amount} F5000 ;filament retract length\nG1 F240 Z3\nG1 F3000\n"
+        },
+        "machine_end_gcode": {
+            "default_value": "M106 S255 ;start fan full power\nM140 S0 ;heated bed heater off (if you have it)\nG91 ;relative positioning\nM104 S0\nG1 Z+2 F{travel_speed} ;move Z up a bit and retract filament even more\nG90\nG28 X Y\nM107 ;stop fan\nM84 ;shut down motors\nn"
+        },
+        "default_material_print_temperature": {
+            "default_value": 205
+        },
+        "speed_print": {
+            "default_value": 60
+        },
+        "speed_travel": {
+            "default_value": 100
+        },
+        "retraction_amount": {
+            "default_value": 3.5
+        },
+        "retraction_speed": {
+            "default_value": 50
+        },
+        "adhesion_type": {
+            "default_value": "brim"
+        },
+        "skirt_line_count": {
+            "default_value": 2
+        },
+        "layer_height_0": {
+            "default_value": 0.26
+        }
+    }
+}
