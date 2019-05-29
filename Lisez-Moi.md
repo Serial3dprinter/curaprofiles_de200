@@ -1,8 +1,8 @@
 # curaprofiles_de200
-Profils pour cura 3.6 pour la de200 créés à partir de CurabyDagoma ! Ces fichiers sont partagés pour être testés et sont à vos propres risques ! N'hésitez pas à me faire des retours sur le club dagoma par message privé : https://clubdagoma.popsell.com 
-Veuillez avoir préalablement téléchargé Cura 3.6 à cette adresse : https://ultimaker.com/en/products/ultimaker-cura-software !
+Profils pour cura 4.1 pour la de200 et disco-ultimate créés à partir de CurabyDagoma ! Ces fichiers sont partagés pour être testés et sont à vos propres risques ! N'hésitez pas à me faire des retours sur le club dagoma par message privé : https://clubdagoma.popsell.com 
+Veuillez avoir préalablement téléchargé la dernière version de Cura à cette adresse : https://ultimaker.com/en/products/ultimaker-cura-software !
 
-/!\ Certains fichiers sont à copier dans le dossier d'installation de cura (C:\Program Files\Ultimaker Cura 3.6) et d'autres devront être importés depuis l'interface de cura :
+/!\ Certains fichiers sont à copier dans le dossier d'installation de cura (C:\Program Files\Ultimaker Cura 4.1) et d'autres devront être importés depuis l'interface de cura :
   
   - Le fichier .json se trouvant dans le dossier "Definitions" devra être copié dans le dossier d'installation de cura se nommant également "Definitions" et se trouvant dans le dossier "ressources". Il devra remplacer le profil de200 déjà présent ou il faudra le renommer différemment.
   
