@@ -7,13 +7,13 @@
       <color>Generic</color>
       <label>PLA Chromatik</label>
     </name>
-    <description>Fast, safe and reliable printing. PLA is ideal for the fast and reliable printing of parts and prototypes with a great surface quality.</description>
+    <description>Filament Chromatik de chez Dagoma fabriqué à base de matériaux biodégradable</description>
     <definition>fdmprinter</definition>
     <compatible>True</compatible>
     <GUID>a9d24080-d4da-48f4-8f2b-7433af717ecc</GUID>
     <color_code>#ffc924</color_code>
     <version>1</version>
-    <adhesion_info>Print on bare glass. Use tape for cold build plates.</adhesion_info>
+    <adhesion_info>L'utilisation de 3D lac peut aider à l'adhésion en cas de difficultés</adhesion_info>
   </metadata>
   <properties>
     <diameter>1.75</diameter>
