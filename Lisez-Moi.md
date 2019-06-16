@@ -16,3 +16,6 @@ Veuillez avoir préalablement téléchargé la dernière version de Cura à cett
 
 Si vous avez des Questions ou des Remarques n'hésitez pas 😉
 Bon prints 
+
+
+Merci à tous les testeurs et à 3dLeoFactory pour l'ajout du profil Ice filament 👍
