@@ -18,4 +18,6 @@ Si vous avez des Questions ou des Remarques n'hésitez pas 😉
 Bon prints 
 
 
-Merci à tous les testeurs et à 3dLeoFactory pour l'ajout du profil Ice filament 👍
+Merci à tous les testeurs 👍 et à : 
+- 3dLeoFactory pour l'ajout du profil Ice filament 
+- Alexandre_S pour l'ajout du profil arianeplast
